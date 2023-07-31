@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.App{
+  background-image: linear-gradient(to bottom, skyblue 0%, pink 50%, white 100%);
+  line-height: 30px;
+}
+h1{
+  padding: 10px;
+  text-align: center;
+}
+h3{
+  padding: 5px;
+}
+p{
+  font-size: 16px;
+  padding: 5px;
+}
+.parent{
+ display: flex;
+ justify-content: center;
+}
+.child_1, .Child_2{
+  flex:0.5;
+}
+.btn{
+  width:100px;
+  height:30px;
+  margin:5px;
+  position: relative;
+  left:-40px;
+  font-size: 14px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color:lightgreen;
+  width: 120px;
+  height: 40px;
+}
